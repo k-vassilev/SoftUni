@@ -1,0 +1,7 @@
+function inchesToCm(input) {
+  let a = Number(input);
+  let inches_function = a * 2.54;
+
+  console.log(inches_function);
+}
+inchesToCm("5");
