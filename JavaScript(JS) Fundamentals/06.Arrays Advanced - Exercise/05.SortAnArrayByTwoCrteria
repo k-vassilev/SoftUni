@@ -1,0 +1,10 @@
+function sortAnArray(array) {
+  let copyArray = array.slice();
+  let lengthWise = copyArray.sort((a, b) => a.localeCompare(b));
+  lengthWise.sort(function (a, b) {
+    return a.length - b.length; //ASC, For Descending order use: b - a
+  });
+
+  console.log(lengthWise.join("\n"));
+}
+sortAnArray([`test`, `Deny`, `omen`, `Default`]);
