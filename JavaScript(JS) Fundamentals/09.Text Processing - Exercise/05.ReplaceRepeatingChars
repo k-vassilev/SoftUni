@@ -1,0 +1,13 @@
+function solve(input) {
+  let chars = input.split(``);
+  let result = [];
+  for (let i = 0; i < chars.length; i++) {
+    let char = chars[i];
+    let nextChar = chars[i + 1];
+    if (char !== nextChar) {
+      result.push(char);
+    }
+  }
+  console.log(result.join(``));
+}
+solve("aaaaabbbbbcdddeeeedssaa");
