@@ -1,0 +1,36 @@
+function magic(input) {
+  let flag = true;
+  let magicSum = 0;
+  for (let i = 0; i < input.length - 1; i++) {
+    let firstRow = input[i];
+    let secondRow = input[i + 1];
+    let firstSum = firstRow.reduce((acc, c) => acc + c, 0);
+    let secondSum = secondRow.reduce((acc, c) => acc + c, 0);
+    if (firstSum !== secondSum) {
+      flag = false;
+    } else {
+      magicSum = firstSum;
+    }
+  }
+  let columnSum = 0;
+  for (let i = 0; i < input[0].length - 1; i++) {
+    let column = [];
+    for (let el of input) {
+      let digit = el[i];
+      column.push(digit);
+    }
+    columnSum = column.reduce((acc, c) => acc + c, 0);
+    if (columnSum !== magicSum) {
+      flag = false;
+    }
+  }
+
+  return flag;
+}
+console.log(
+  magic([
+    [4, 5, 6],
+    [6, 5, 4],
+    [5, 5, 5],
+  ])
+);
