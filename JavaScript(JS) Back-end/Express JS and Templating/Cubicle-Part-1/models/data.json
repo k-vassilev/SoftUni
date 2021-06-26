@@ -1,0 +1,20 @@
+{
+  "klqk9wqbukkpicyqjp": {
+    "name": "My complicated cube",
+    "description": "The puzzle of life",
+    "imageUrl": "https://www.bhphotovideo.com/images/images500x500/merge_arc_01_merge_cube_hologram_1366041.jpg",
+    "difficulty": 6
+  },
+  "klqk9wqchgkpid1jrc": {
+    "name": "The wooden cube",
+    "description": "A wooden cube of possibilities",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZvU9YTvT6Fl09ycAnoDv4xD6zNZcBAnQAw&usqp=CAU",
+    "difficulty": 3
+  },
+  "39kztfakkpnv0lck": {
+    "name": "Crystal Cube",
+    "description": "Crystal cube description test",
+    "imageUrl": "https://i1.sndcdn.com/artworks-cyrVmpOoK9g2BtUg-E3n0kg-t240x240.jpg",
+    "difficulty": 4
+  }
+}
