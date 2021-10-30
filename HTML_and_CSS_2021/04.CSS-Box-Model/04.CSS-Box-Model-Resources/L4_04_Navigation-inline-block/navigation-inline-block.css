@@ -1,0 +1,22 @@
+html{
+	font-family: Helvetica, sans-serif;
+}
+li{
+	display: inline-block;
+}
+nav{
+	display: inline-block;
+}
+a{
+	color: green;
+	text-decoration: none;
+}
+header{
+	border-width: 0px 0px 5px 0px;
+	border-style: solid;
+	border-color: black;
+	
+}
+body{
+	padding: 50px;
+}

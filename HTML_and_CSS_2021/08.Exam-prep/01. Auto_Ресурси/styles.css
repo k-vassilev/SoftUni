@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap");
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.auto-main {
+	display: flex;
+	width: 1250px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+.auto-section-left {
+	width: 100%;
+	margin-right: 30px;
+}
+.auto-section-right {
+	width: 100%;
+}
+.auto-bullet {
+	display: flex;
+	margin-left: -7px;
+	padding-bottom: 16px;
+}
+
+.auto-bullet-img {
+	width: 60px;
+}
+h2 {
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+	color: #222222;
+}
+.auto-first-paragraph {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+p {
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	color: #707070;
+}
+.auto-second-paragraph {
+	margin-bottom: 30px;
+}
+.auto-bullet-img {
+	margin-right: 10px;
+}
+.bullet-wrapper {
+	padding-top: 2px;
+}
+.auto-bullet-paragraph {
+	padding-top: 5px;
+}

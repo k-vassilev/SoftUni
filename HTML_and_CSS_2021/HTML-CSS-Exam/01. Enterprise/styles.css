@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+main {
+	background: white;
+}
+.asana-article {
+	margin: 50px 250px;
+	background: #f6f8f9;
+	border-radius: 8px;
+	display: flex;
+}
+.main-section-left {
+	margin: 50px;
+	width: 30%;
+}
+h1 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #29323F;
+}
+h2 {
+	font-size: 11px;
+	color: #29323F;
+	margin-bottom:-15px;
+}
+.main-secttion-left-p{
+	font-size: 17px;
+	line-height: 1.5;
+	color: #666F78;
+	margin-bottom: 26px;
+}
+.main-section-left-left-btn{
+	color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-width: 0;
+    background: #7573F6;
+}
+.main-section-left-right-btn{
+	color: #29323F;
+    padding: 9px 20px;
+	border: solid black 1px;
+    border-radius: 3px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+.main-section-right{
+	margin-left: 240px;
+}
+.main-section-right-img{
+	margin-top: 85px;
+	height: 300px;
+}
